@@ -2,31 +2,21 @@
   <div class="home">
   <div class="carou">
   <carousel-3d :controls-visible="true" :controls-prev-html="'&#10092; '" :controls-next-html="'&#10093;'" 
-               :controls-width="30" :controls-height="60" :height="heightInPixels" :width="heightInPixels*1.75"  >
+               :controls-width="40" :controls-height="80" :height="heightInPixels" :width="heightInPixels*1.75" :display="5">
   <slide :index="0" class="slide">
-    <router-link to="/DVB">
-    <SlideTmplWhite title="InMoov and Jasper" caption='Development then project management for DavinciBot in the creation of the humanoid robots "InMoov" and "JASPER"' image-path="/DVB/InMoov_Working.png" textcolor="white"/>
-    </router-link>
+    <SlideTmplWhite title="InMoov and Jasper" routerPath='/dvb' caption='Development then project management for DavinciBot in the creation of the humanoid robots "InMoov" and "JASPER"' image-path="/DVB/InMoov_Working.png" textcolor="white"/>
   </slide>
   <slide :index="1" class="slide">
-    <router-link to="/ExoTouch">
-    <SlideTmplWhite title="ExoTouch haptic gloves" caption='Creation of haptic gloves with force feedback for virtual reality, DIY and inexpensive.' image-path="/ExoTouch/ExoTouchV3.jpeg" textcolor="white"/>
-    </router-link>
+    <SlideTmplWhite title="ExoTouch haptic gloves" routerPath='/exotouch' caption='Creation of haptic gloves with force feedback for virtual reality, DIY and inexpensive.' image-path="/ExoTouch/ExoTouchV3.jpeg" textcolor="white"/>
   </slide>
   <slide :index="2" class="slide">
-    <router-link to="/RHIM">
-    <SlideTmplWhite title="Robotic haptic interface" caption='Encounter-type haptic robots for desk-size environnement exploration in virtual reality' image-path="/Internship/SDV1.PNG" textcolor="white"/>
-    </router-link>
+    <SlideTmplWhite title="Robotic haptic interface" routerPath='/rhim' caption='Encounter-type haptic robots for desk-size environnement exploration in virtual reality' image-path="/Internship/SDV1.PNG" textcolor="white"/>
   </slide>
   <slide :index="3" class="slide">
-    <router-link to="/HapticSuit">
-    <SlideTmplWhite title="Environnemental haptic suit (WIP)" caption='Creation of a haptic suit for environmental thermal feedback in virtual reality. Ongoing project.' image-path="/Internship/SDV1.PNG" textcolor="white"/>
-    </router-link>
+    <SlideTmplWhite title="Environnemental haptic suit (WIP)" routerPath='/hapticsuit' caption='Creation of a haptic suit for environmental thermal feedback in virtual reality. Ongoing project.' image-path="/Internship/SDV1.PNG" textcolor="white"/>
   </slide>
   <slide :index="4" class="slide">
-    <router-link to="/Network">
-    <SlideTmplWhite title="HTML/CSS/JS developpement and self web hosting" caption='Creation of websites in HTML/CSS/Vue.js and implementation of network infrastructure to host web sites and services.' image-path="/Hosting/thumbnail.png" textcolor="white"/>
-    </router-link>
+    <SlideTmplWhite title="HTML/CSS/JS developpement and self web hosting" routerPath='/web' caption='Creation of websites in HTML/CSS/Vue.js and implementation of network infrastructure to host web sites and services.' image-path="/Hosting/thumbnail.png" textcolor="white"/>
   </slide>
 </carousel-3d>
   </div>
@@ -84,7 +74,7 @@ export default {
 }
 
 .carousel-3d-controls, .prev, .next {
-  color: white !important;
+  color: #D88F00 !important;
 }
 
 .slide{
