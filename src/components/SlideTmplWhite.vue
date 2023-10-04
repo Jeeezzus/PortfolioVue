@@ -1,9 +1,15 @@
 <!-- SlideTmpl.vue -->
 <template>
   <div class="slide-tmpl">
-      <img :src="imagePath" alt="Slide Image" class="full-image" />
-    <h2 class="slide-title" :style="{color: titlecolor}">{{ title }}</h2>
-    <p class="slidecap">{{ caption }}</p>
+    <div class="two-column-layout">
+      <div class="column1">
+        <img :src="imagePath" alt="Slide Image" class="full-image" />
+      </div>
+      <div class="column2">
+        <h2 class="slide-title" :style="{color: titlecolor}">{{ title }}</h2>
+      <p class="slidecap">{{ caption }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -25,12 +31,10 @@ export default {
   position: relative;
   text-align: center;
   overflow: hidden; /* Ensure the image doesn't overflow the container */
-  aspect-ratio: 1;
 }
 
 /* Style the image container */
 .image-container {
-  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -38,9 +42,9 @@ export default {
 
 /* Style the image to be fullscreen */
 .full-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  width: 100%M !important;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 /* Style the title */
@@ -77,4 +81,36 @@ export default {
   opacity: 0.7; /* Adjust the opacity of the reflection */
 }
 
+.two-column-layout {
+  object-fit: cover;
+  display: flex;
+  width: 100% !important;
+  height: 100% !important; /* Set the height of the container as needed */
+}
+
+.column2 {
+  object-fit: cover;
+  flex: 10;
+  align-items: center;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.column1 {
+  object-fit: cover;
+  flex: 15;
+  align-items: center;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media (max-width: 750px) {
+  .two-column-layout {
+    flex-direction: column; /* Change to vertical layout */
+    align-items: center; /* Center horizontally in vertical layout */
+  }
+
+  .slide-title{
+    height: 80vh;
+  }
+}
 </style>
