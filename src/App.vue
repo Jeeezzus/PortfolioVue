@@ -53,4 +53,6 @@ body, html{
   color: white; /* Set text color of the navbar items */
   padding: 15px; /* Add padding to the navbar items for better visibility */
 }
+
+a { text-decoration: none; }
 </style>

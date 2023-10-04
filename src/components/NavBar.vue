@@ -3,7 +3,7 @@
     <div class="navbar">
       <div class="logo">
         <router-link to="/"> <!-- Use Vue Router to navigate to the main page -->
-          <img src="../assets/logo.png" alt="Logo" class="logo-img" />
+          <img src="../assets/GDRS_White.png" alt="Logo" class="logo-img" />
         </router-link>
       </div>
       <div class="name">Gauthier GENDREAU</div>

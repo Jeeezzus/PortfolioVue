@@ -14,8 +14,10 @@
 
         <div class="two-column-layout">
             <div class="column2">
+                <div class="em1">
                 <p><b>This project aims to develop a force feedback exoskeleton for virtual reality haptic interactions. The goal is to create a device that can be built by a do-it-yourselfer for around €200, making it an affordable alternative to expensive commercial haptic gloves. The device will be compatible with the Lucid Glove API, allowing easy integration with existing applications. A demo will be created to test the device's ability to allow users to manipulate and interact with virtual objects using haptic feedback.</b></p>
             </div>
+        </div>
             <div class="column1">
             
             <a href="https://dvic.devinci.fr/ExoTouch">
@@ -132,6 +134,7 @@ From the point of view of the haptic sensation itself, it would be possible to a
 
     <h2>Bibliographie</h2>
         <div class="title">
+            <div class="em2">
         <ul>
             <li>C. Burdea, G., n.d. Haptic Feedback for Virtual Reality.</li>
             <li>Perret, J., Poorten, E.V., n.d. Touching Virtual Reality: a Review of Haptic Gloves</li>
@@ -150,9 +153,23 @@ From the point of view of the haptic sensation itself, it would be possible to a
         </ul>
     </div>
     </div>
+    </div>
 </template>
   
   <style>
+  .em1{
+    background-color: #EFCA93;
+    border-radius: 20px;
+    padding: 10px;
+    color: #333;
+  }
+
+  .em2{
+    background-color: #FF6CDC;
+    border-radius: 20px;
+    padding: 10px;
+    color: #333;
+  }
 .ExoTouch{
 color: whitesmoke;
   text-align: justify;

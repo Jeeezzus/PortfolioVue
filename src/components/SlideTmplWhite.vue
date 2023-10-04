@@ -9,7 +9,7 @@
         <h2 class="slide-title" :style="{color: titlecolor}">{{ title }}</h2>
       <p class="slidecap">{{ caption }}</p>
       <router-link :to="routerPath">
-      <a class="btn btn-1">Hover me</a>
+      <a class="btn btn-1">Discover project</a>
       </router-link>
       </div>
     </div>
@@ -38,10 +38,6 @@ export default {
   overflow: hidden; /* Ensure the image doesn't overflow the container */
 }
 
-/* Style the image container */
-.image-container {
-  object-fit: cover;
-}
 
 /* Style the image to be fullscreen */
 .full-image {
@@ -54,15 +50,15 @@ export default {
   text-align: justify;
   background-color: transparent;
   margin: 0;
+  padding: 10px;
   font-size: 2.5em;
-  background-color: hsla(0, 0%, 0%, 0.25);
 }
 
 .slidecap {
   background-color: transparent; /* Set the background color to transparent */
   margin-top: 10px;
   font-size: 1.25em;
-  background-color: hsla(0, 0%, 0%, 0.25);
+  padding: 10px;
 }
 
 .two-column-layout {
@@ -81,8 +77,8 @@ export default {
 
 .btn {
  position: absolute;
-  bottom: 30px;
-  margin: 10px;
+  bottom: 40px;
+  margin: 15px;
   padding: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -98,7 +94,7 @@ export default {
 }
 
 .btn-1 {
-  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  background-image: linear-gradient(to right, #812A89 0%, #FF6CDC 51%, #EFCA93 100%); 
 }
 @media (max-width: 750px) {
   .two-column-layout {
@@ -112,6 +108,10 @@ export default {
 
   .slide-tmpl{
     height: 80vh;
+  }
+
+  .full-image{
+    max-height: 50vh !important;
   }
 
 }
