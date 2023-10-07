@@ -19,10 +19,30 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
+    path: '/academic',
+    name: 'academic project',
+    component: () => import('../views/AcademicVue.vue')
+  },
+  {
     path: '/ExoTouch',
     name: 'ExoTouch',
     component: () => import('../views/ExoTouch.vue')
-  }
+  },
+  {
+    path: '/electrostaticbrakes',
+    name: 'Electrostatic brakes',
+    component: () => import('../views/ElectrostaticbrakesVue.vue')
+  },
+  {
+    path: '/rhim',
+    name: 'RHIM',
+    component: () => import('../views/rhimVue.vue')
+  },
+  {
+    path: '/padders',
+    name: 'Padders',
+    component: () => import('../views/PaddersVue.vue')
+  },
 ]
 
 const router = new VueRouter({

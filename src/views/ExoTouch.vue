@@ -8,6 +8,8 @@
                 <div class="title">
                     <h1>ExoTouch</h1>
                     <h2>A cheap, yet, reliable haptic exoskeleton for VR</h2>
+                    <p>Supervisors: Clément DUHART</p>
+                    <p><em>Keywords: Year project, Haptic, VR, HCI, CAD, Electronics, 3D printing, Wireless communication, Wearable </em></p>
                 </div>
             </div>
         </div>
@@ -132,7 +134,7 @@ From the point of view of the haptic sensation itself, it would be possible to a
 
     </div>
 
-    <h2>Bibliographie</h2>
+    <h2>Bibliography</h2>
         <div class="title">
             <div class="em2">
         <ul>
@@ -155,6 +157,14 @@ From the point of view of the haptic sensation itself, it would be possible to a
     </div>
     </div>
 </template>
+
+<script>
+export default {
+mounted () {
+    window.scrollTo(0, 0)
+  }
+}
+  </script>
   
   <style>
   .em1{

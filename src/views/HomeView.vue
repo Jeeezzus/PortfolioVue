@@ -38,6 +38,7 @@ export default {
     // Calculate 70% of the viewport height in pixels
     const viewportHeight = window.innerHeight;
     this.heightInPixels = Math.floor(viewportHeight * 0.75);
+    window.scrollTo(0, 0)
   },
   components: {
     Carousel3d,
