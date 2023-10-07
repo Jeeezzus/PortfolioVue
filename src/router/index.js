@@ -43,6 +43,11 @@ const routes = [
     name: 'Padders',
     component: () => import('../views/PaddersVue.vue')
   },
+  {
+    path: '/dvb',
+    name: 'DVB',
+    component: () => import('../views/DVBVue.vue')
+  },
 ]
 
 const router = new VueRouter({

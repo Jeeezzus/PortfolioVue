@@ -45,6 +45,22 @@
             
         </div>
 
+        <h2>InMoov and JASPER at DavinciBot</h2>
+        <div class="two-column-layout">
+            <div class="column1">
+                <div class="title">
+                    <p class="desc">For four years, I was involved in the projects of the DavinciBot robotics association. First, I was a project member for a year, before becoming project manager for InMoov and then JASPER, before being appointed project manager for the association.</p>
+                    <router-link to="/dvb">
+                    <a class="btn btn-1">Discover project</a>
+                    </router-link>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="/DVB/InMoov_Working.png" alt="Padders" class="img" />
+            </div>
+            
+        </div>
+
         <h2>Padders Quickstarter</h2>
         <div class="two-column-layout">
             <div class="column1">
@@ -119,7 +135,7 @@ color: whitesmoke;
 
 .column2 {
   flex: 10;
-  padding: 20px; /* Add padding or adjust styles as needed */
+  padding: 20px; 
   align-items: center;
   max-height: 40vh;
   
@@ -127,7 +143,7 @@ color: whitesmoke;
 
 .column1 {
   flex: 20;
-  padding: 20px; /* Add padding or adjust styles as needed */
+  padding: 20px; 
   align-items: center;
   height: 100% !important;
   position: relative;
