@@ -2,7 +2,7 @@
     <div class="ExoTouch">
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/radio/muse.jpeg" alt="academics" class="imgNoScale" />
+                <img src="/Radio/Muse.jpeg" alt="Hobbies" class="imgNoScale" />
             </div>
             <div class="column1">
                 <div class="title">

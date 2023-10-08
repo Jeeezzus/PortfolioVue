@@ -2,7 +2,7 @@
     <div class="ExoTouch">
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/hapticsuit/ironman.png" alt="hapticsuit" class="imgNoScale" />
+                <img src="/HapticDuit/ironman.png" alt="hapticsuit" class="imgNoScale" />
             </div>
             <div class="column1">
                 <div class="title">

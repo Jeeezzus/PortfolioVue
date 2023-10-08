@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="column2">
-                <img src="/ExoTouch/ExoTouchv3.jpeg" alt="ExoTouchV3" class="img" />
+                <img src="/ExoTouch/ExoTouchV3.jpeg" alt="ExoTouchV3" class="img" />
             </div>
             
         </div>
@@ -31,7 +31,7 @@
         <h2>Robotic haptic interface</h2>
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/internship/SDV1.PNG" alt="Robotic haptic interface SDV1" class="img" />
+                <img src="/Internship/SDV1.PNG" alt="Robotic haptic interface SDV1" class="img" />
             </div>
             <div class="column1">
                 <div class="title">
@@ -99,7 +99,7 @@
         <h2>PIX1 - First year project</h2>
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/pix/visuel.jpg" alt="pix" class="img" />
+                <img src="/PIX/Visuel.jpg" alt="pix" class="img" />
             </div>
             <div class="column1">
                 <div class="title">

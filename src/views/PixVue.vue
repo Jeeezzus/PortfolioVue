@@ -2,7 +2,7 @@
     <div class="ExoTouch">
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/PIX/visuel.jpg" alt="pix" class="imgNoScale" />
+                <img src="/PIX/Visuel.jpg" alt="pix" class="imgNoScale" />
             </div>
             <div class="column1">
                 <div class="title">
@@ -65,7 +65,7 @@ From this problem arise two constraints: the size constraint - the tank must be 
                 </div>
             </div>
             <div class="column2">
-                <img src="/PIX/visuel.jpg" alt="pix modé" class="img" />
+                <img src="/PIX/Visuel.jpg" alt="pix modé" class="img" />
             </div>
             
         </div>

@@ -2,7 +2,7 @@
     <div class="ExoTouch">
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/internship/SDV1.PNG" alt="Electrostatic Brakes" class="img" />
+                <img src="/Internship/SDV1.PNG" alt="Electrostatic Brakes" class="img" />
             </div>
             <div class="column1">
                 <div class="title">
@@ -26,12 +26,12 @@
             <div class="column1">
                 <div class="two-column-layout">
                     <div class="column1">
-                        <a href="/internship/Doc_RoboticHapticInterface_ENGLISH.pdf" download="Doc_RoboticHapticInterface_ENGLISH" class="btn btn-1">
+                        <a href="/internship/Doc_RoboticHapticInterface_ENGLISH.pdf" download="Doc_RoboticHapticInterface_ENGLISH.pdf" class="btn btn-1">
                          Full report ENGLISH
                         </a>
                     </div>
                     <div class="column1">
-                        <a href="/internship/Doc_RoboticHapticInterface_FRENCH.pdf" download="Doc_RoboticHapticInterface_FRENCH" class="btn btn-1">
+                        <a href="/internship/Doc_RoboticHapticInterface_FRENCH.pdf" download="Doc_RoboticHapticInterface_FRENCH.pdf" class="btn btn-1">
                          Full report FRENCH
                         </a>
                     </div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="column2">
-                <img src="/internship/rhimArchitecture.png" alt="RHIM architecture" class="img" />
+                <img src="/Internship/rhimArchitecture.png" alt="RHIM architecture" class="img" />
             </div>
             
         </div>
@@ -59,7 +59,7 @@
         <h2>Software</h2>
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/internship/API.drawio.png" alt="API" class="img" />
+                <img src="/Internship/API.drawio.png" alt="API" class="img" />
             </div>
             <div class="column1">
                 <div class="title">
@@ -159,19 +159,19 @@ mounted () {
     this.images = [
        {
           id: '0',
-          image: '/internship/DDV1.PNG'
+          image: '/Internship/DDV1.PNG'
        },
        {
           id: '1',
-          image: '/internship/DDV2.PNG'
+          image: '/Internship/DDV2.PNG'
        },
        {
           id: '2',
-          image: '/internship/GDV1.PNG'
+          image: '/Internship/GDV1.PNG'
        },
        {
           id: '3',
-          image: '/internship/SDV1.PNG'
+          image: '/Internship/SDV1.PNG'
        },
     ]
 
