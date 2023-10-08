@@ -2,7 +2,7 @@
     <div class="ExoTouch">
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/DVB/v2blanc.png" alt="Padders" class="imgNoScale" />
+                <img src="/DVB/asso.webp" alt="DVB" class="imgNoScale" />
             </div>
             <div class="column1">
                 <div class="title">
@@ -50,6 +50,33 @@
             <div class="column1">
                 <div class="title">
                     <p> During my second year with the association, I was appointed project manager for the InMoov project. Our objectives included upgrading the power supply to meet the new constraints imposed by previous years. We also continued work on strengthening the structure.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <h2>Third Year (2021-2022)</h2>
+        <div class="two-column-layout">
+            <div class="column1">
+                <div class="title">
+                    <p> During my third year with the association, I founded the JASPER project. We drew on our years of work on InMoov, the fully 3D-printed humanoid robot, to refound the project. Our aim is to create a robust, reliable robot, moving away from plastic and towards more solid materials like aluminum. Work focused on the general architecture and the robot's trunk, to provide a basis for future years.</p>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="/DVB/modé.png" alt="JASPER tronc" class="img" />
+            </div>
+            
+        </div>
+
+        <h2>Fourth Year (2022-2023)</h2>
+        <div class="two-column-layout">
+          <div class="column2">
+                <img src="/DVB/pré-coupe.jpg" alt="Pré-coupe" class="img" />
+            </div>
+            <div class="column1">
+                <div class="title">
+                    <p> For my fourth year at DavinciBot, I was appointed academic project manager. I managed three project teams (JASPER the humanoid robot, Travelers the amphibious rover and the team taking part in the French Robotics Cup). My aim was to guide the teams both technically and managerially. I was in charge of around thirty people.</p>
                 </div>
             </div>
             

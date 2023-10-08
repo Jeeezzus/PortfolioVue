@@ -63,6 +63,9 @@
 
         <h2>Padders Quickstarter</h2>
         <div class="two-column-layout">
+            <div class="column2">
+                <img src="/padders/padders.jpg" alt="Padders" class="img" />
+            </div>
             <div class="column1">
                 <div class="title">
                     <p class="desc">Padders is THE tool to help you organize your fridge. It's a colorful plastic pad you put on the fridge shelves that will allow you to sort your food by expiration date. Inspired by the Chiefs organization, we want to help people waste less food and money in an easy and colored way.</p>
@@ -71,21 +74,38 @@
                     </router-link>
                 </div>
             </div>
-            <div class="column2">
-                <img src="/padders/padders.jpg" alt="Padders" class="img" />
-            </div>
+            
             
         </div>
 
         <h2>Electrostatic Brakes</h2>
         <div class="two-column-layout">
-            <div class="column2">
-                <img src="/ESB/electrostaticbrakes.jpeg" alt="Electrostatic Brakes" class="img" />
-            </div>
             <div class="column1">
                 <div class="title">
                     <p class="desc">This tutorial aims to build an electrostatic brake to retain two electrodes between them without a mechanical system. This system uses high voltage as an actuation principle.</p>
                     <router-link to="/electrostaticbrakes">
+                    <a class="btn btn-1">Discover project</a>
+                    </router-link>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="/ESB/electrostaticbrakes.jpeg" alt="Electrostatic Brakes" class="img" />
+            </div>
+           
+            
+            
+        </div>
+
+        <h2>PIX1 - First year project</h2>
+        <div class="two-column-layout">
+            <div class="column2">
+                <img src="/pix/visuel.jpg" alt="pix" class="img" />
+            </div>
+            <div class="column1">
+                <div class="title">
+                    <p class="desc">The aim of the LéoLike project is to create a miniature tank inspired by Leonardo da Vinci. 
+From this problem arise two constraints: the size constraint - the tank must be miniature - and the design constraint.  Indeed, as the tank was to be inspired by the works of Leonardo da Vinci, the visual aspect of the tank had to be designed accordingly.</p>
+                    <router-link to="/pix">
                     <a class="btn btn-1">Discover project</a>
                     </router-link>
                 </div>

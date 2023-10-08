@@ -24,6 +24,11 @@ const routes = [
     component: () => import('../views/AcademicVue.vue')
   },
   {
+    path: '/hobby',
+    name: 'hobby project',
+    component: () => import('../views/HobbyVue.vue')
+  },
+  {
     path: '/ExoTouch',
     name: 'ExoTouch',
     component: () => import('../views/ExoTouch.vue')
@@ -47,6 +52,21 @@ const routes = [
     path: '/dvb',
     name: 'DVB',
     component: () => import('../views/DVBVue.vue')
+  },
+  {
+    path: '/pix',
+    name: 'pix',
+    component: () => import('../views/PixVue.vue')
+  },
+  {
+    path: '/web',
+    name: 'web',
+    component: () => import('../views/WebVue.vue')
+  },
+  {
+    path: '/hapticsuit',
+    name: 'hapticsuit',
+    component: () => import('../views/SuitVue.vue')
   },
 ]
 

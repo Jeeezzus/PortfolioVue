@@ -26,12 +26,12 @@
             <div class="column1">
                 <div class="two-column-layout">
                     <div class="column1">
-                        <a href="/internship/Doc_RoboticHapticInterface_ENGLISH.pdf" download="download" class="btn btn-1">
+                        <a href="/internship/Doc_RoboticHapticInterface_ENGLISH.pdf" download="Doc_RoboticHapticInterface_ENGLISH" class="btn btn-1">
                          Full report ENGLISH
                         </a>
                     </div>
                     <div class="column1">
-                        <a href="/internship/Doc_RoboticHapticInterface_FRENCH.pdf" download="download" class="btn btn-1">
+                        <a href="/internship/Doc_RoboticHapticInterface_FRENCH.pdf" download="Doc_RoboticHapticInterface_FRENCH" class="btn btn-1">
                          Full report FRENCH
                         </a>
                     </div>
