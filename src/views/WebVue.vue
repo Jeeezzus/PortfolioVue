@@ -11,8 +11,63 @@
                 </div>
             </div>
         </div>
-        <div class="title">
-            <h1>Work In Progress</h1>
+        <div class="two-column-layout">
+            <div class="column2">
+                <div class="em1">
+                <p><b>I had the opportunity to learn how to build a network infrastructure from scratch and develop a website.</b></p>
+            </div>
+        </div>
+            <div class="column1">
+            
+            <a href="https://gauthier-gendreau.gdrs.fr/">
+                <p class="link">This website: https://gauthier-gendreau.gdrs.fr/</p>
+            </a>
+
+            <a href="https://msprepublique.gdrs.fr/">
+                <p class="link">Website developped: https://msprepublique.gdrs.fr/</p>
+            </a>
+            
+        </div>
+        </div>
+
+        <h2>Network Infrastructure</h2>
+        <div class="two-column-layout">
+            <div class="column1">
+                <div class="title">
+                    <p>I had the opportunity to set up a network infrastructure, since the websites created on the gdrs.fr domain are hosted by me. So I set up a multi-site web server with Nginx.</p>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="/Hosting/cat6.jpg" alt="Switch" class="img" />
+            </div>
+            
+        </div>
+
+        <h2>Html-css website</h2>
+        <div class="two-column-layout">
+            <div class="column2">
+                <img src="/Hosting/msp.png" alt="msp" class="img" />
+            </div>
+
+            <div class="column1">
+                <div class="title">
+                    <p>I created an HTML/CSS website for the Maison de santé pluridisciplinaire république. The aim of the site is to introduce the doctors, make it easier to book appointments and provide an overview of the center's news. The site is then hosted by me.</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2>This portfolio</h2>
+        <div class="two-column-layout">
+            <div class="column1">
+                <div class="title">
+                    <p>Ce portfolio a été développé avec Vue.js et hébergé grâce à Nginx. </p>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="/Hosting/port.png" alt="Portfolio" class="img" />
+            </div>
+            
         </div>
     </div>
 </template>
