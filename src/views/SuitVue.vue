@@ -2,17 +2,42 @@
     <div class="ExoTouch">
         <div class="two-column-layout">
             <div class="column2">
-                <img src="/HapticDuit/ironman.png" alt="hapticsuit" class="imgNoScale" />
+                <img src="/HapticSuit/ironman.png" alt="hapticsuit" class="imgNoScale" />
             </div>
             <div class="column1">
                 <div class="title">
-                    <h1>HapticSuit</h1>
+                    <h1>ThermalSuit</h1>
                     <h2>Creation of a haptic suit for environmental thermal feedback in virtual reality.</h2>
                 </div>
             </div>
         </div>
+
+        <div class="two-column-layout">
+            <div class="column2">
+                <div class="em1">
+                <p><b>The Thermal Suit project aims to provide thermal feedback on the user's virtual environment. If the user is in an Antarctic application, the suit will provide cold; if he's in the Sahara, the application will provide heat. Vibrating motors will also be added to make the suit even more immersive.</b></p>
+                </div>
+        </div>
+            <div class="column1">            
+            </div>
+        </div>
+
+
         <div class="title">
             <h1>Work In Progress</h1>
+        </div>
+
+        <h2>Proof of concept</h2>
+        <div class="two-column-layout">
+            <div class="column1">
+                <div class="title">
+                    <p>The first thermal module prototype was produced in a month, using a peltier module, a cooling system and a basic control system based on a temperature sensor, an arduino nano and an H-bridge. Initial results are quite satisfactory, with a temperature range from 15° to 50°. However, keeping the temperature cool is difficult, as the system doesn't extract enough energy.</p>
+                </div>
+            </div>
+            <div class="column2">
+                <img src="/HapticSuit/proto1.jpeg" alt="thermal module proto1" class="img" />
+            </div>
+            
         </div>
     </div>
 </template>
